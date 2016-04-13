@@ -1,0 +1,35 @@
+#nowplaying > #albumart{
+  min-width: 125px;
+  min-height: 75px;
+  width: 10vw;
+  height: 5vw;
+  background: url("http://placehold.it/250x150?text=Album Art");
+  background-size: contain;
+  float:left;
+}
+
+#nowplaying > #albumart > #avatar{
+  position: relative;
+  width:2.5vw;
+  height:2.5vw;
+  background: url("http://placehold.it/62x17?text=Avatar");
+  float:right;
+  bottom:-2.5vw;
+  background-size: contain;
+}
+
+#nowplaying > #songtitle{
+    font-size: 2vw;
+    margin: 0;
+    //margin-left: 1vw;
+    //width: auto;
+}
+
+#nowplaying > #songuser{
+    margin: 0;
+    font-size: 1.25vw;
+    margin-top: 10px;
+    color:rgba(155, 155, 155, 1);
+    //margin-left: 1vw;
+    //width: auto;
+}
