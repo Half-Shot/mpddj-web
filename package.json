@@ -1,0 +1,25 @@
+{
+  "name": "mpddj-web",
+  "version": "0.0.1",
+  "description": "A web frontend for mpddj",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Half-Shot/mpddj-web.git"
+  },
+  "author": "Will Hunt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Half-Shot/mpddj-web/issues"
+  },
+  "homepage": "https://github.com/Half-Shot/mpddj-web#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1"
+  }
+}
