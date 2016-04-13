@@ -34,4 +34,5 @@ jspm_packages
 .node_repl_history
 
 # Don't include the output
-out
+out/bundle.js
+out/style.css
